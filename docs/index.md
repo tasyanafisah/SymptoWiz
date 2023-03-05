@@ -53,12 +53,12 @@ Dapat mendiagnosa penyakit berdasarkan input dari gejala yang dialami pasien(use
 ### b. Pengguna potensial dari produk dan kebutuhan para pengguna tersebut
 Pasien atau individu yang mengalami rasa sakit atau ada keluhan medis dengan keterbatasan waktu atau ekonomi untuk konsultasi langsung ke dokter
 ### c. Use Case Diagram 
-<img width="341" alt="image" src="https://user-images.githubusercontent.com/75060878/222961271-52788490-e793-44c3-b2a2-a7a8c143661d.png">
+<img width="341" alt="image" src="https://user-images.githubusercontent.com/75060878/222961271-52788490-e793-44c3-b2a2-a7a8c143661d.png"><br>
 ### d. Functional Requirements untuk Use Case
-<img width="410" alt="image" src="https://user-images.githubusercontent.com/75060878/222961350-8d7dd68e-f727-45d1-be6e-5e06e02baa4f.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/75060878/222961350-8d7dd68e-f727-45d1-be6e-5e06e02baa4f.png"><br>
 ### e. Entity Relationship Diagram
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/75060878/222961428-687a5102-fb50-4f1a-877e-9794ed580cdb.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75060878/222961428-687a5102-fb50-4f1a-877e-9794ed580cdb.png"><br>
 ### f. Low-Fidelity Wireframe
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/75060878/222961510-81930449-1098-42ca-a56a-cef2348f9914.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/75060878/222961510-81930449-1098-42ca-a56a-cef2348f9914.png"><br>
 ### g. Gantt-Chart Pengerjaan Proyek
-<img width="550" alt="image" src="https://user-images.githubusercontent.com/75060878/222961533-d7b9fd1a-3101-4159-aacd-9a47ce8ed32b.png">
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/75060878/222961533-d7b9fd1a-3101-4159-aacd-9a47ce8ed32b.png"><br>
