@@ -8,3 +8,8 @@ SymptoWiz adalah aplikasi prediksi penyakit berdasarkan input gejala pasien, dil
 | Anggota 1  | Hafizha Ulinnuha Ahmad | 20/456365/TK/50495 |
 | Anggota 2 | Richard Harryson | 20/456378/TK/50508 |
 | Anggota 3 | Resiyanda Wafa Ramadaningtyas Aribowo | 20/460563/TK/51152 |
+
+
+
+markdown: kramdown
+theme: minima
