@@ -1,30 +1,28 @@
 import { Breadcrumb, Layout, Menu, theme } from "antd";
+import logoSymptoWiz from "../../assets/logo.png";
+
 const { Header, Content, Footer } = Layout;
 const DefaultLayout = ({ children }) => {
     const {
         token: { colorBgContainer },
     } = theme.useToken();
     return (
-        <Layout className="layout">
-            <Header>
-                <div className="logo" />
+        <Layout className="layout flex">
+            <Header className="bg-purple-900 flex">
+                <img src={logoSymptoWiz} className="object-contain" />
                 <Menu
+                    className="bg-purple-900"
                     theme="dark"
                     mode="horizontal"
                     defaultSelectedKeys={["2"]}
-                    items={new Array(15).fill(null).map((_, index) => {
-                        const key = index + 1;
-                        return {
-                            key,
-                            label: `nav ${key}`,
-                        };
-                    })}
+                    items={[{ label: "Home" }, { label: "Article" }]}
                 />
             </Header>
             <Content
                 style={{
                     padding: "0 50px",
                 }}
+                className="bg-purple-500"
             >
                 <Breadcrumb
                     style={{
@@ -37,9 +35,9 @@ const DefaultLayout = ({ children }) => {
                 </Breadcrumb>
                 <div
                     className="site-layout-content min-h-[80vh]"
-                    style={{
-                        background: colorBgContainer,
-                    }}
+                    // style={{
+                    //     background: colorBgContainer,
+                    // }}
                 >
                     {children}
                 </div>
@@ -48,8 +46,9 @@ const DefaultLayout = ({ children }) => {
                 style={{
                     textAlign: "center",
                 }}
+                className="bg-purple-900"
             >
-                Ant Design ©2023 Created by Ant UED
+                SymptoWiz ©2023 Created by De Sijis
             </Footer>
         </Layout>
     );
