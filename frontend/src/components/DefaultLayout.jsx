@@ -1,5 +1,6 @@
 import { Breadcrumb, Layout, Menu, theme } from "antd";
-import logoSymptoWiz from "../../assets/logo.png";
+import logoSymptoWiz from "../assets/logo.png";
+import SearchBar from "./SearchBar";
 
 const { Header, Content, Footer } = Layout;
 const DefaultLayout = ({ children }) => {
@@ -9,7 +10,7 @@ const DefaultLayout = ({ children }) => {
     return (
         <Layout className="layout flex">
             <Header className="bg-purple-900 flex">
-                <img src={logoSymptoWiz} className="object-contain" />
+                <img src={logoSymptoWiz} className="object-contain mr-4 py-2" />
                 <Menu
                     className="bg-purple-900"
                     theme="dark"
@@ -18,13 +19,14 @@ const DefaultLayout = ({ children }) => {
                     items={[{ label: "Home" }, { label: "Article" }]}
                 />
             </Header>
-            <Content
+            {children}
+            {/*<Content
                 style={{
                     padding: "0 50px",
                 }}
                 className="bg-purple-500"
             >
-                <Breadcrumb
+                 <Breadcrumb
                     style={{
                         margin: "16px 0",
                     }}
@@ -32,7 +34,7 @@ const DefaultLayout = ({ children }) => {
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
                     <Breadcrumb.Item>List</Breadcrumb.Item>
                     <Breadcrumb.Item>App</Breadcrumb.Item>
-                </Breadcrumb>
+                </Breadcrumb> 
                 <div
                     className="site-layout-content min-h-[80vh]"
                     // style={{
@@ -41,7 +43,7 @@ const DefaultLayout = ({ children }) => {
                 >
                     {children}
                 </div>
-            </Content>
+            </Content>*/}
             <Footer
                 style={{
                     textAlign: "center",

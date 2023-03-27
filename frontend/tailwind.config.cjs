@@ -38,6 +38,9 @@ module.exports = {
                 "b-lg": ["1rem", "1.75rem"],
                 "b-md": ["0.75rem", "1.3rem"],
             },
+            backgroundImage: {
+                hero: "url('./assets/bg-hero.png')",
+            },
         },
     },
     plugins: [],
