@@ -1,40 +1,72 @@
 import React from "react";
 import Select from "react-select";
+import { useState } from "react";
 
-export default function SearchBar() {
+export default function SearchBar({ name, onChange, value }) {
     const options = [
-        { value: "blues", label: "Blues" },
-        { value: "rock", label: "Rock" },
-        { value: "jazz", label: "Jazz" },
-        { value: "orchestra", label: "Orchestra" },
+        { value: "fever", label: "Fever" },
+        { value: "headache", label: "Headache" },
+        { value: "vomiting", label: "Vomiting" },
+        { value: "fatigue", label: "Fatigue" },
     ];
 
     const customStyles = {
         option: (defaultStyles, state) => ({
             ...defaultStyles,
-            color: state.isSelected ? "#212529" : "#fff",
-            backgroundColor: state.isSelected ? "#a0a0a0" : "#212529",
+            color: state.isSelected ? "#fff" : "#fff",
+            backgroundColor: state.isFocused ? "#2C274F" : "#211D3B",
         }),
-
         control: (defaultStyles) => ({
             ...defaultStyles,
-            backgroundColor: "#212529",
-            padding: "10px",
+            backgroundColor: "#211D3B",
+            padding: "8px",
             border: "none",
             boxShadow: "none",
+            color: "white",
+        }),
+
+        multiValue: (defaultStyles, { data }) => ({
+            ...defaultStyles,
+            backgroundColor: "#AFADC1",
+        }),
+        multiValueLabel: (defaultStyles, { data }) => ({
+            ...defaultStyles,
+            color: "#2C274F",
+            margin: "2px 4px",
+        }),
+        multiValueRemove: (defaultStyles, { data }) => ({
+            ...defaultStyles,
+            color: "#2C274F",
+            ":hover": {
+                backgroundColor: "#2C274F",
+                color: "#AFADC1",
+                borderRadius: 0,
+            },
+        }),
+        input: (defaultStyles) => ({
+            ...defaultStyles,
+            color: "#AFADC1",
+        }),
+        menu: (defaultStyles) => ({
+            ...defaultStyles,
+            backgroundColor: "#2C274F",
         }),
         singleValue: (defaultStyles) => ({ ...defaultStyles, color: "#fff" }),
     };
 
     return (
         <Select
-            defaultValue={[options[2], options[3]]}
+            // defaultValue={[options[2], options[3]]}
+            value={value}
+            onChange={onChange}
             isMulti
-            name="colors"
+            name={name}
             options={options}
             className="basic-multi-select"
             classNamePrefix="select"
             styles={customStyles}
+            closeMenuOnSelect={false}
+            placeholder="How are you feeling?"
         />
     );
 }
