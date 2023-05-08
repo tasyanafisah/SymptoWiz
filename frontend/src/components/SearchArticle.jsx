@@ -6,8 +6,8 @@ export default function SearchArticle({ name, onChange, value }) {
     const options = [
         { value: "fever", label: "Fever" },
         { value: "headache", label: "Headache" },
-        { value: "vomiting", label: "Vomiting" },
-        { value: "fatigue", label: "Fatigue" },
+        { value: "infection", label: "Infection" },
+        { value: "acne", label: "Acne" },
     ];
 
     const customStyles = {
@@ -33,7 +33,7 @@ export default function SearchArticle({ name, onChange, value }) {
             ...defaultStyles,
             backgroundColor: "#2C274F",
         }),
-        singleValue: (defaultStyles) => ({ ...defaultStyles, color: "#fff" }),
+        singleValue: (defaultStyles, { data }) => ({ ...defaultStyles, color: "#fff" }),
     };
 
     return (
@@ -41,8 +41,10 @@ export default function SearchArticle({ name, onChange, value }) {
             // defaultValue={[options[2], options[3]]}
             value={value}
             onChange={onChange}
+            isMulti
             name={name}
             options={options}
+            className="basic-multi-select"
             classNamePrefix="select"
             styles={customStyles}
             closeMenuOnSelect={false}

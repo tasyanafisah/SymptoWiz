@@ -17,7 +17,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" caseSensitive={false} element={<Home />} />
-                    <Route path="/" caseSensitive={false} element={<Article/>}/>
+                    <Route path="/article" caseSensitive={false} element={<Article/>}/>
                 </Routes>
             </Router>
         </ConfigProvider>

@@ -1,16 +1,21 @@
 import React, { useRef, useState } from "react";
 import DefaultLayout from "../components/DefaultLayout";
 import SearchArticle from "../components/SearchArticle";
+import { FaHatWizard } from "react-icons/fa";
 
 export default function Article() {
-    const articleData = [
+    const diseaseData = [
         {
-            article_name: "Severe Headache",
-            desc: [
-                "Headaches are one of the most common medical complaints that affect people of all ages, races, and genders.",
-                "Almost everyone has experienced a headache at some point in their lives, and while they are often a temporary nuisance,",
-                "they can sometimes be a sign of a more serious underlying condition."
-            ],
+            disease_name: "Migraine Headache",
+        },
+        {
+            disease_name: "Tension Headache",
+        },
+        {
+            disease_name: "Hypnic Headache",
+        },
+        {
+            disease_name: "Cluster Headache",
         },
     ];
 
@@ -52,7 +57,7 @@ export default function Article() {
                         >
                             <div className="w-96 text-white">
                                 <SearchArticle
-                                    name="symptoms"
+                                    name="disease"
                                     onChange={setSelectedOptions}
                                     value={selectedOptions}
                                 />
@@ -75,15 +80,22 @@ export default function Article() {
                 ref={resultRef}
             >
                 <div className="w-11/12 max-w-5xl mx-auto">
+                    <p className="text-h4 font-semibold text-center mt-16 drop-shadow-lg">
+                        Here are some articles about the disease:
+                    </p>
                     <div className="w-full bg-gradient-to-br from-purple-300/20 to-purple-900 min-h-screen my-8 md:py-12 md:px-16 py-4 px-8 rounded-xl">
-                        {articleData.map((data) => (
+                        {diseaseData.map((data) => (
                             <div className="border-b-[1px] border-b-purple-100/20 py-12">
                                 <h3 className="text-h3 font-bold mb-4">
-                                    {data.article_name}
+                                    {data.disease_name}
                                 </h3>
                                 <h4 className="text-h4 font-light mb-4">
-                                    {data.desc}
-                                </h4>                                             
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a erat sed odio tempor pellentesque nec at mi. In risus sapien, finibus quis eros a, fringilla gravida urna. Interdum et malesuada fames ac ante ipsum primis ind faucibus.
+                                </h4>
+                                <button className="p-4 bg-purple-700 hover:bg-purple-900 rounded-lg w-fit"
+                                >
+                                    More
+                                </button>                                             
                             </div>
                         ))}
                     </div>
