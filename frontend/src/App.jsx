@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import { ConfigProvider, theme, Button, Card } from "antd";
+import DoctorPages from "./pages/DoctorPages";
 
 function App() {
     const { defaultAlgorithm, darkAlgorithm } = theme;
@@ -16,6 +17,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" caseSensitive={false} element={<Home />} />
+                    <Route path="/docpage" caseSensitive={false} element={<DoctorPages />} /> //ini buat pindah ke page doctornya
                 </Routes>
             </Router>
         </ConfigProvider>
