@@ -18,6 +18,7 @@ const DefaultLayout = ({ children }) => {
                     defaultSelectedKeys={["2"]}
                     items={[{ label: "Home" }, { label: "Article" }]}
                 />
+                
             </Header>
             {children}
             {/*<Content
