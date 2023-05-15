@@ -14,9 +14,6 @@ export default function Article() {
         {
             disease_name: "Hypnic Headache",
         },
-        {
-            disease_name: "Cluster Headache",
-        },
     ];
 
     const [selectedOptions, setSelectedOptions] = useState([]);
@@ -92,8 +89,7 @@ export default function Article() {
                                 <h4 className="text-h4 font-light mb-4">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a erat sed odio tempor pellentesque nec at mi. In risus sapien, finibus quis eros a, fringilla gravida urna. Interdum et malesuada fames ac ante ipsum primis ind faucibus.
                                 </h4>
-                                <button className="p-4 bg-purple-700 hover:bg-purple-900 rounded-lg w-fit"
-                                >
+                                <button className="p-4 bg-purple-700 hover:bg-purple-900 rounded-lg w-fit">
                                     More
                                 </button>                                             
                             </div>

@@ -17,6 +17,8 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" caseSensitive={false} element={<Home />} />
+                    <Route path="/about" caseSensitive={false} element={<AboutPage />} />
+                    <Route path="/docpage" caseSensitive={false} element={<DoctorPages />} />
                     <Route path="/article" caseSensitive={false} element={<Article/>}/>
                 </Routes>
             </Router>
