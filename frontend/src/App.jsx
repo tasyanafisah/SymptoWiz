@@ -5,7 +5,9 @@ import { ConfigProvider, theme, Button, Card } from "antd";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import DoctorPages from "./pages/DoctorPages";
+import { useNavigate } from "react-router-dom";
 import Article from "./pages/Article";
+
 
 function App() {
     const { defaultAlgorithm, darkAlgorithm } = theme;
