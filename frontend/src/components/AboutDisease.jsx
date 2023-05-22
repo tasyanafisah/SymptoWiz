@@ -40,17 +40,36 @@ const AboutDisease = ({ children }) => {
                         m4 font-bold Poppins text-white text-left">
                             What are the symptoms of a Headache?
                     </h1>
-                    <h2 className="flex-wrap mt-4 
+                    
+                    <h2  className="flex-wrap mt-4 
                         m4 font-extralight Poppins text-white text-justify">
                     The symptoms of a headache can vary depending on the type of headache and its severity. < br/>
                     Common symptoms of a headache include: < br/>
-                    < br/>
-                        Pain or discomfort in the head or neck area < br/>
-                        Sensitivity to light or sound < br/>
-                        Nausea or vomiting < br/>
-                        Dizziness or lightheadedness < br/>
-                        Difficulty concentrating or thinking clearly < br/>
                     </h2>
+                    <ul style={{ listStyleType: 'decimal' }} className="mt-2">
+                        <li>Pain or discomfort in the head or neck area</li>
+                        <li>Sensitivity to light or sound</li>
+                        <li>Nausea or vomiting</li>
+                        <li>Dizziness or lightheadedness</li>
+                        <li>Difficulty concentrating or thinking clearly</li>
+                    </ul>
+                    <h1 className="flex-wrap mt-8
+                        m4 font-bold Poppins text-white text-left">
+                            What causes a headache?
+                    </h1>
+                    <h2  className="flex-wrap mt-4 
+                        m4 font-extralight Poppins text-white text-justify">
+                    Headaches can be caused by a wide range of factors, including: < br/>
+                    </h2>
+                    <ul style={{ listStyleType: 'decimal' }} className="mt-2">
+                        <li>Stress</li>
+                        <li>Poor posture</li>
+                        <li>Eyestrain</li>
+                        <li>Dehydration</li>
+                        <li>Lack of sleep</li>
+                        <li>Alcohol or drug use</li>
+                        <li>Sinusitis</li>
+                    </ul>
                     <p className="justify-center">
                     <button onClick={() => navigate("/docpage")} className="bg-purple-600 rounded-full shadow-2xl
                     hover:bg-purple-700 font-Poppins text-white mt-16 p-8 ">
