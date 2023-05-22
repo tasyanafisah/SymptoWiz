@@ -19,7 +19,6 @@ export default function AboutPage() {
                                 <FaHatWizard />
                             </span>
                         </div>
-                        <SearchBar />                 
                     </div>
                 </div>
             </div>
