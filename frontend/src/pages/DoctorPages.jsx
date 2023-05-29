@@ -114,25 +114,29 @@ export default function DoctorPages() {
             >
                 <div className="w-11/12 max-w-5xl mx-auto">
                     <p className="text-h4 font-semibold text-center mt-16 drop-shadow-lg">
-                        According to your results, we recommend you these doctors:
+                        According to your results, we recommend you to go to a Neurologist Doctor:
                     </p>
 
                     <div className="w-full bg-gradient-to-br from-purple-50/20 to-purple-100 min-h-screen my-8 md:py-12 md:px-16 py-4 px-8 rounded-xl">
-                        {diseaseData.map((data) => (
+                        {/* {diseaseData.map((data) => ( */}
                             <div className="border-b-[1px] border-b-purple-50/20 py-12">
-                                <h3 className="text-h3 font-semibold mb-4"> Doctors for  
+                                <h3 className="text-h3 font-semibold mb-4"> about  
                                     <span className="text-h2 font-bold ml-2 text-yellow-100">
-                                        {data.disease_name}      
+                                        Neurologist      
                                     </span> 
                                 </h3>
-                                <h2 classname="text-h2 font-normal ml-2 text-pink-300">
-                                    Doctor
-                                </h2>
-                                <h4 classname="text-h4 font-light mb-4">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a erat sed odio tempor pellentesque nec at mi. In risus sapien, finibus quis eros a, fringilla gravida urna. Interdum et malesuada fames ac ante ipsum primis ind faucibus.
+                                <h4 className="text-h4 font-light mb-4">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a erat sed odio tempor pellentesque nec at mi. In risus sapien, finibus quis eros a, 
+                                    fringilla gravida urna. Interdum et malesuada fames ac ante ipsum primis ind faucibus.
+                                    <span className="text-h4 font-bold ml-4 text-yellow-100">
+                                        More     
+                                    </span> 
                                 </h4> 
+                                {/* <h4 classname="text-h4 font-light mb-4 text-yellow-100">
+                                    More
+                                </h4>  */}
                             </div>
-                        ))}                 
+                        {/* ))}                  */}
                     </div>
                 </div>
             </div>
