@@ -1,6 +1,7 @@
 import { Breadcrumb, Layout, Menu, theme } from "antd";
 import logoSymptoWiz from "../assets/logo.png";
 import SearchBar from "./SearchBar";
+import { Link } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;
 const DefaultLayout = ({ children }) => {
@@ -16,35 +17,14 @@ const DefaultLayout = ({ children }) => {
                     theme="dark"
                     mode="horizontal"
                     defaultSelectedKeys={["2"]}
-                    items={[{ label: "Home" }, { label: "Article" }]}
+                    items={[
+                        { label: <Link to="/">Home</Link> },
+                        { label: <Link to="/article">Article</Link> },
+                        { label: <Link to="/doctor">Doctor Wiki</Link> },
+                    ]}
                 />
-                
             </Header>
             {children}
-            {/*<Content
-                style={{
-                    padding: "0 50px",
-                }}
-                className="bg-purple-500"
-            >
-                 <Breadcrumb
-                    style={{
-                        margin: "16px 0",
-                    }}
-                >
-                    <Breadcrumb.Item>Home</Breadcrumb.Item>
-                    <Breadcrumb.Item>List</Breadcrumb.Item>
-                    <Breadcrumb.Item>App</Breadcrumb.Item>
-                </Breadcrumb> 
-                <div
-                    className="site-layout-content min-h-[80vh]"
-                    // style={{
-                    //     background: colorBgContainer,
-                    // }}
-                >
-                    {children}
-                </div>
-            </Content>*/}
             <Footer
                 style={{
                     textAlign: "center",

@@ -5,9 +5,8 @@ import { ConfigProvider, theme, Button, Card } from "antd";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import DoctorPages from "./pages/DoctorPages";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Article from "./pages/Article";
-
 
 function App() {
     const { defaultAlgorithm, darkAlgorithm } = theme;
@@ -21,9 +20,21 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" caseSensitive={false} element={<Home />} />
-                    <Route path="/about" caseSensitive={false} element={<AboutPage />} />
-                    <Route path="/article" caseSensitive={false} element={<Article />} />
-                    <Route path="/docpage" caseSensitive={false} element={<DoctorPages />} /> //ini buat pindah ke page doctornya
+                    <Route
+                        path="/about"
+                        caseSensitive={false}
+                        element={<AboutPage />}
+                    />
+                    <Route
+                        path="/article"
+                        caseSensitive={false}
+                        element={<Article />}
+                    />
+                    <Route
+                        path="/doctor"
+                        caseSensitive={false}
+                        element={<DoctorPages />}
+                    />
                 </Routes>
             </Router>
         </ConfigProvider>
