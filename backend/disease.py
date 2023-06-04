@@ -16,7 +16,7 @@ def get_disease_info(name):
             "doctors": [
                 {"name": "Allergist", "description": "Allergists are qualified to diagnose and treat conditions like hay fever, food allergies and intolerances, eczema, psoriasis, asthma, and certain types of sinus and ear infections, among others."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pharmaguideline.com%2F2007%2F07%2Fadverse-drug-reactions.html&psig=AOvVaw1TQaPaCZl0LAUk7gZjY724&ust=1685975348469000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjSjefpqf8CFQAAAAAdAAAAABAD",
+            "image": "https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2022/nejm_2022.387.issue-2/nejmicm2116076/20220711/images/img_large/nejmicm2116076_f1.jpeg",
         },
         "Malaria": {
             "description": "An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type.",
@@ -30,7 +30,7 @@ def get_disease_info(name):
             "doctors": [
                 {"name": "Infectious Disease Doctor (ID)", "description": "Infectious disease doctors are trained in clinical and laboratory skills to make the right diagnoses and organize the best treatment plans."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alodokter.com%2Fmalaria&psig=AOvVaw2LkCcpKmFwLdTJuYO_3ZM4&ust=1685975410554000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDM44Dqqf8CFQAAAAAdAAAAABAD",
+            "image": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/know_-malaria_GettyImages959911388_Thumb-2.jpg",
         },
         "Allergy": {
             "description": "An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens.",
@@ -44,7 +44,7 @@ def get_disease_info(name):
                 {"name": "Allergist", "description": "Allergists are qualified to diagnose and treat conditions like hay fever, food allergies and intolerances, eczema, psoriasis, asthma, and certain types of sinus and ear infections, among others."},
                 {"name": "Otolaryngologist (ENT)", "description": "The ENT surgeon is therefore a doctor who specializes in evaluating and treating patients with ear, nose (including sinuses) and throat (including voice and speech) disorders. In addition, they also manage patients with head and neck cancers as well as surgical treatment of obstructive sleep apnea."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fbaby%2Fbaby-allergic-reaction-to-food&psig=AOvVaw27Se4kIQ1f4Yz3jmfwu-Ip&ust=1685975524568000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNC9zrTqqf8CFQAAAAAdAAAAABAI",
+            "image": "https://d3b6u46udi9ohd.cloudfront.net/wp-content/uploads/2022/08/24072619/Food-causing-allergy.jpg",
         },
         "Hypothyroidism": {
             "description": "Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone.",
@@ -58,7 +58,7 @@ def get_disease_info(name):
             "doctors": [
                 {"name": "Endocrinologist", "description": "An endocrinologist is particularly knowledgeable about the function of the thyroid gland and the body's other hormone-secreting glands."},                
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Finfinitycarehospital.com%2Fthese-changes-in-face-and-hair-can-be-symptoms-of-hypothyroidism-do-not-ignore%2F&psig=AOvVaw3Ng3GpZIOjEydB1W3hMxvp&ust=1685975819904000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKC5-MHrqf8CFQAAAAAdAAAAABAD",
+            "image": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Endocrine-Diseases/ThyroidAnatomy_758x864.jpg",
         },
         "Psoriasis": {
             "description": "Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family.",
@@ -73,7 +73,7 @@ def get_disease_info(name):
                 {"name": "Dermatologist", "description": "A dermatologist is a medical doctor who specializes in conditions that affect the skin, hair, and nails. Whether it's rashes, wrinkles, psoriasis, or melanoma, no one understands your skin, hair, and nails better than a board-certified dermatologist."},
                 {"name": "Rheumatologist", "description": "This is a doctor who specializes in treating arthritis and other problems with the joints, muscles, and bones. They can treat any joint pain caused by psoriasis."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmy.clevelandclinic.org%2Fhealth%2Fdiseases%2F6866-psoriasis&psig=AOvVaw2zXqvpgoZT7ZW0a40epaX6&ust=1685976384776000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCu587tqf8CFQAAAAAdAAAAABAD",
+            "image": "https://post.healthline.com/wp-content/uploads/2022/04/Scalp-psoriasis-1296x728-slide5.jpg",
         },
         "GERD": {
             "description": "Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD.",
@@ -88,7 +88,7 @@ def get_disease_info(name):
                 {"name": "Gastroenterologist ", "description": "A gastroenterologist is a physician with specialized training in managing diseases of the gastrointestinal tract (esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver)."},
                 {"name": "Otolaryngologist", "description": "They are also known as an ENT, or ear, nose, and throat specialist. If you have stomach acid that spills into your throat or voice box, you may have laryngopharyngeal reflux (LPR) instead of, or in addition to, GERD. Otolaryngologists have experience diagnosing and treating both conditions."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fherminahospitals.com%2Fid%2Farticles%2Fmengenal-apa-itu-gerd-gejala-dan-mengatasi-gerd.html&psig=AOvVaw3k6XDe4mch-Q1luEO341UA&ust=1685976411057000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiKnN7tqf8CFQAAAAAdAAAAABAD",
+            "image": "https://assets.medpagetoday.net/media/images/90xxx/90511.jpg",
         },
         "Chronic cholestasis": {
             "description": "Chronic cholestatic diseases, whether occurring in infancy, childhood or adulthood, are characterized by defective bile acid transport from the liver to the intestine, which is caused by primary damage to the biliary epithelium in most cases",
@@ -103,7 +103,7 @@ def get_disease_info(name):
                 {"name": "Gastroenterologist", "description": "A gastroenterologist is a physician with specialized training in managing diseases of the gastrointestinal tract (esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver)."},
                 {"name": "Internal Medicine", "description": "nternal medicine or general internal medicine (in Commonwealth nations) is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases. Doctors specializing in internal medicine are called internists, or physicians (without a modifier) in Commonwealth nations."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedlineplus.gov%2Fgenetics%2Fcondition%2Fbenign-recurrent-intrahepatic-cholestasis%2F&psig=AOvVaw1GRfAOkOgUW0MimVoFNdNr&ust=1685977582078000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDkuo3yqf8CFQAAAAAdAAAAABAD",
+            "image": "https://medlineplus.gov/images/PX0001UT_PRESENTATION.jpeg",
         },
         "hepatitis A": {
             "description": "Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. The virus is one of several types of hepatitis viruses that cause inflammation and affect your liver's ability to function.",
@@ -117,7 +117,7 @@ def get_disease_info(name):
             "doctors": [
                 {"name": "Hepatologist", "description": "Hepatologist: A gastroenterologist with extensive training in liver disease is a hepatologist. These physicians are subspecialists with many years of training and are experts in all the diseases that affect the liver, especially hepatitis."},                
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prosehat.com%2Fartikel%2Fartikelkesehatan%2Fpenyebab-hepatitis-a-kambuh&psig=AOvVaw3GWETG28W0tkleq1okda30&ust=1685977630276000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjbv6Lyqf8CFQAAAAAdAAAAABAD",
+            "image": "https://cdn.aarp.net/content/dam/aarp/health/drugs_supplements/2020/10/1140-hepatitis-a.jpg",
         },
         "Osteoarthristis": {
             "description": "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time.",
@@ -131,7 +131,7 @@ def get_disease_info(name):
             "doctors": [
                 {"name": "Rheumatologists", "description": "heumatologists are specialists in arthritis and diseases that involve bones, muscles and joints. They are trained to make difficult diagnoses and to treat all types of arthritis, especially those requiring complex treatment. You may be referred to an orthopedist if you have a type of degenerative arthritis."},
             ],
-            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhulc.ca%2F2019%2F01%2F31%2Fa-patients-guide-to-osteoarthritis-of-the-hand%2F&psig=AOvVaw3Dx4T7ZAw4TMAn1LtnZn5I&ust=1685977947814000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjw4rnzqf8CFQAAAAAdAAAAABAM",
+            "image": "https://hulc.ca/wp-content/uploads/2019/01/osteo-hands.jpg?w=624",
         },
         # END OF BAGIAN REI
         # START OF BAGIAN TASYA
