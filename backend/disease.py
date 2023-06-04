@@ -412,12 +412,36 @@ def get_disease_info(name):
                 "get away from trigger",
                 "seek help",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "wheezing",
+                "coughing",
+                "shortness of breath",
+                "chest tightness",
+                "difficulty sleeping",
+                "rapid breathing",
+                "increased mucus production",
+                "anxiety",
+                "panic",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Primary Care Physician",
+                    "description": "Your primary care physician, such as a family doctor or internist, is often the first point of contact for healthcare. They can evaluate your symptoms, perform a physical examination, and provide initial diagnosis and treatment for asthma. They may also refer you to a specialist for further evaluation if necessary.",
+                },
+                {
+                    "name": "Pulmonologist",
+                    "description": "A pulmonologist is a medical specialist who focuses on diagnosing and treating diseases of the respiratory system, including asthma. If your primary care physician suspects or confirms asthma, they may refer you to a pulmonologist for a more detailed evaluation, specialized testing (such as lung function tests), and to develop an optimal treatment plan.",
+                },
+                {
+                    "name": "Allergist",
+                    "description": "Allergists or immunologists specialize in identifying and managing allergies, including allergic asthma. They can help determine the specific triggers that worsen your asthma symptoms through allergy testing and provide guidance on allergen avoidance strategies. They may also offer immunotherapy (allergy shots) to desensitize your immune system to specific allergens.",
+                },
+                {
+                    "name": "Pediatrician",
+                    "description": "If a child is experiencing symptoms of asthma, a pediatrician should be consulted. They are trained to diagnose and manage asthma in children and can coordinate care with other specialists if necessary",
+                },
+            ],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwypHNFHHlwwEmQvkbyjKBnbmEsWqM5kzgfA&usqp=CAU",
         },
         "Alcoholic hepatitis": {
             "description": "Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use. If you develop this condition, you must stop drinking alcohol",
@@ -427,12 +451,41 @@ def get_disease_info(name):
                 "medication",
                 "follow up",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "abdominal pain",
+                "jaundice",
+                "fatigue",
+                "loss of appetite",
+                "nausea",
+                "vomiting",
+                "fever",
+                "ascites",
+                "spider angiomas",
+                "mental confusion",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Gastroenterologist",
+                    "description": "A gastroenterologist specializes in the diagnosis and treatment of diseases related to the digestive system, including the liver. They play a key role in diagnosing alcoholic hepatitis, assessing the severity of liver damage, and developing a treatment plan.",
+                },
+                {
+                    "name": "Hepatologist",
+                    "description": "A hepatologist is a specialist specifically focused on diseases of the liver. They have advanced training and expertise in managing liver diseases, including alcoholic hepatitis. In cases of severe or complicated alcoholic hepatitis, a hepatologist may be consulted for specialized care.",
+                },
+                {
+                    "name": "Addiction Specialist",
+                    "description": "As alcohol abuse is the underlying cause of alcoholic hepatitis, an addiction specialist or substance abuse counselor may be involved in your care. They can provide support, counseling, and resources to address alcohol addiction and help you achieve long-term sobriety.",
+                },
+                {
+                    "name": "Nutritionist",
+                    "description": "A nutritionist or dietitian can play a vital role in managing alcoholic hepatitis. They can provide dietary guidance, develop a nutrition plan, and ensure you receive adequate nutrients to support liver health and recovery.",
+                },
+                {
+                    "name": "Mental Health Professional",
+                    "description": "Alcohol addiction and liver disease can have a significant impact on mental health. A mental health professional, such as a psychologist or psychiatrist, may be involved in your care to address any co-occurring mental health concerns, provide counseling, and support your overall well-being.",
+                },
+            ],
+            "image": "https://www.aafp.org/content/dam/brand/aafp/pubs/afp/issues/2022/0400/p412-f1.jpg",
         },
         "Jaundice": {
             "description": 'Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the "morbus regius" (the regal disease) in the belief that only the touch of a king could cure it',
@@ -442,12 +495,36 @@ def get_disease_info(name):
                 "eat fruits and high fiberous food",
                 "medication",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "yellow skin",
+                "yellow eyes",
+                "yellow mucous membranes",
+                "dark-colored urine",
+                "pale stools",
+                "fatigue",
+                "abdominal pain or discomfort",
+                "loss of appetite",
+                "nausea",
+                "vomiting",
+                "itching",
+                "unexplained weight loss",
+                "fever",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Gastroenterologist",
+                    "description": "Gastroenterologists specialize in diagnosing and treating disorders of the digestive system, including the liver and gallbladder. They can evaluate the underlying causes of jaundice and provide appropriate management.",
+                },
+                {
+                    "name": "Hepatologist",
+                    "description": "Hepatologists are medical specialists who focus on liver diseases. They have expertise in diagnosing and managing various liver disorders that can cause jaundice.",
+                },
+                {
+                    "name": "Hematologist",
+                    "description": "Hematologists specialize in disorders of the blood and can be involved in the diagnosis and management of jaundice caused by blood-related conditions, such as hemolytic anemia.",
+                },
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Jaundice08.jpg",
         },
         "Hepatitis E": {
             "description": "A rare form of liver inflammation caused by infection with the hepatitis E virus (HEV). It is transmitted via food or drink handled by an infected person or through infected water supplies in areas where fecal matter may get into the water. Hepatitis E does not cause chronic liver disease.",
@@ -457,12 +534,34 @@ def get_disease_info(name):
                 "consult doctor",
                 "medication",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "fatigue",
+                "jaundice",
+                "dark urine",
+                "pale stools",
+                "abdominal pain",
+                "loss of appetite",
+                "nausea",
+                "vomiting",
+                "low-grade fever",
+                "muscle and joint pain",
+                "itching",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Gastroenterologist",
+                    "description": "Gastroenterologists specialize in diagnosing and treating diseases of the digestive system, including viral hepatitis. They can provide evaluation, monitoring, and management of hepatitis E.",
+                },
+                {
+                    "name": "Hepatologist",
+                    "description": "Hepatologists are specialists who focus on diseases of the liver. They may be involved in the management of severe cases of hepatitis E or complications associated with the infection.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "Infectious disease specialists have expertise in diagnosing and treating various infectious diseases, including viral hepatitis. They may be consulted for the diagnosis and management of hepatitis E.",
+                },
+            ],
+            "image": "https://www.emergency-live.com/wp-content/uploads/2022/11/epatite-e-1.jpg",
         },
         "Dengue": {
             "description": "an acute infectious disease caused by a flavivirus (species Dengue virus of the genus Flavivirus), transmitted by aedes mosquitoes, and characterized by headache, severe joint pain, and a rash. — called also breakbone fever, dengue fever.",
@@ -472,22 +571,68 @@ def get_disease_info(name):
                 "keep mosquitos away",
                 "keep hydrated",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "high fever",
+                "severe headache",
+                "eye pain",
+                "muscle and joint pain",
+                "rash",
+                "nausea",
+                "vomiting",
+                "fatigue",
+                "mild bleeding",
+                "abdominal pain",
+                "swollen lymph nodes",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "General Practitioner/Family Physician",
+                    "description": "Your primary care physician or family doctor is often the first point of contact for initial evaluation and diagnosis of dengue. They can provide supportive care, monitor your symptoms, and manage your condition.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "Infectious disease specialists specialize in diagnosing and treating various infectious diseases, including dengue. They may be consulted for complicated or severe cases of dengue.",
+                },
+                {
+                    "name": "Pediatrician",
+                    "description": "For children with dengue, a pediatrician should be consulted. They have expertise in managing dengue in children and can provide appropriate care.",
+                },
+                {
+                    "name": "Internal Medicine Specialist",
+                    "description": "Internal medicine specialists are trained in the diagnosis and treatment of adult diseases. They may be involved in the management of dengue in adults, particularly in severe cases.",
+                },
+            ],
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Denguerash.JPG",
         },
         "Hepatitis D": {
             "description": "Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV).",
             "precautions": ["consult doctor", "medication", "eat healthy", "follow up"],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "fatigue",
+                "jaundice",
+                "dark urine",
+                "pale stools",
+                "abdominal pain",
+                "loss of appetite",
+                "nausea and vomiting",
+                "joint pain",
+                "rapid progression",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Gastroenterologist",
+                    "description": "Gastroenterologists specialize in diagnosing and treating diseases of the digestive system, including viral hepatitis. They can provide evaluation, monitoring, and management of hepatitis D.",
+                },
+                {
+                    "name": "Hepatologist",
+                    "description": "Hepatologists are specialists who focus on diseases of the liver. They may be involved in the management of severe cases of hepatitis D or complications associated with the infection.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "Infectious disease specialists have expertise in diagnosing and treating various infectious diseases, including viral hepatitis. They may be consulted for the diagnosis and management of hepatitis D, especially if there are complexities or if co-infection with other viral strains is suspected.",
+                },
+            ],
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsUJVDDbp-Lgh3UCGFu9DhA8w_MOHgU5k2_DiOgPfcPg4N67iynfIcAkW08FOuRpmwJCA&usqp=CAU",
         },
         "Heart attack": {
             "description": "The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle.",
@@ -498,7 +643,7 @@ def get_disease_info(name):
             ],
             "precautions": [
                 "call ambulance",
-                "chew or swallow asprin",
+                "chew or swallow aspirin",
                 "keep calm",
             ],
             "doctors": [
@@ -507,8 +652,16 @@ def get_disease_info(name):
                     "description": "Your first step is usually to consult with a primary care physician, such as a general practitioner or family doctor. They can assess your symptoms, perform an initial evaluation, and provide basic treatments or recommend lifestyle modifications.",
                 },
                 {
-                    "name": "Primary Care Physician (PCP)",
-                    "description": "Your first step is usually to consult with a primary care physician, such as a general practitioner or family doctor. They can assess your symptoms, perform an initial evaluation, and provide basic treatments or recommend lifestyle modifications.",
+                    "name": "Neurologist",
+                    "description": "If your headaches are severe, recurrent, or accompanied by other neurological symptoms, you may be referred to a neurologist. Neurologists specialize in diagnosing and treating conditions related to the nervous system, including headaches and migraines.",
+                },
+                {
+                    "name": "Otolaryngologist (ENT)",
+                    "description": "Occasionally, headaches may be linked to sinus problems, allergies, or other ear, nose, and throat (ENT) issues. In such cases, an otolaryngologist can provide specialized evaluation and treatment.",
+                },
+                {
+                    "name": "Dentist",
+                    "description": "If your headaches are suspected to be caused by dental issues, such as temporomandibular joint (TMJ) disorders or teeth grinding (bruxism), a dentist with expertise in this area may be able to help.",
                 },
             ],
             "image": "https://plus.unsplash.com/premium_photo-1661780185218-aef1faa97ebc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
@@ -516,12 +669,36 @@ def get_disease_info(name):
         "Pneumonia": {
             "description": "Pneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe.",
             "precautions": ["consult doctor", "medication", "rest", "follow up"],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "Cough",
+                "Fever",
+                "Shortness of breath",
+                "Chest pain",
+                "Rapid or shallow breathing",
+                "Fatigue",
+                "Loss of appetite",
+                "Sweating",
+                "Confusion (in older adults)",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Pulmonologist",
+                    "description": "A pulmonologist specializes in diagnosing and treating diseases of the respiratory system, including pneumonia. They can evaluate symptoms, order diagnostic tests, prescribe appropriate medications, and provide respiratory support if needed.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "An infectious disease specialist is trained in the diagnosis and treatment of various infectious diseases, including pneumonia. They can identify the specific cause of pneumonia, determine the most effective treatment approach, and manage complications if present.",
+                },
+                {
+                    "name": "Primary Care Physician/Family Doctor",
+                    "description": "Your primary care physician or family doctor is often the first healthcare professional you would consult for symptoms of pneumonia. They can assess your condition, order diagnostic tests, prescribe antibiotics or other medications, and refer you to a specialist if necessary.",
+                },
+                {
+                    "name": "Critical Care Specialist/Intensivist",
+                    "description": "In severe cases of pneumonia requiring intensive care, a critical care specialist or intensivist may be involved in the treatment. They have expertise in managing critically ill patients, providing advanced respiratory support, and monitoring for complications.",
+                },
+            ],
+            "image": "https://prod-images-static.radiopaedia.org/images/1371188/0a1f5edc85aa58d5780928cb39b08659c1fc4d6d7c7dce2f8db1d63c7c737234_gallery.jpeg",
         },
         "Arthritis": {
             "description": "Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.",
@@ -531,12 +708,37 @@ def get_disease_info(name):
                 "try acupuncture",
                 "massage",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "Joint pain",
+                "Joint stiffness",
+                "Swelling in the joints",
+                "Redness or warmth around the joints",
+                "Decreased range of motion",
+                "Joint deformities",
+                "Fatigue",
+                "Muscle aches",
+                "Joint tenderness",
+                "Difficulty performing daily activities",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Rheumatologist",
+                    "description": "A rheumatologist is a medical specialist who diagnoses and treats diseases of the joints, muscles, and bones, including arthritis. They are experts in managing various types of arthritis, developing treatment plans, prescribing medications, and providing recommendations for physical therapy or other interventions.",
+                },
+                {
+                    "name": "Orthopedic Surgeon",
+                    "description": "An orthopedic surgeon specializes in surgical treatments of musculoskeletal conditions, including severe cases of arthritis that require surgical intervention. They may perform joint replacement surgeries or other procedures to improve joint function and alleviate pain.",
+                },
+                {
+                    "name": "Primary Care Physician/Family Doctor",
+                    "description": "Your primary care physician or family doctor is often the initial point of contact for evaluating arthritis symptoms. They can assess your condition, provide initial treatment options such as pain management, prescribe medications, and refer you to a specialist if necessary.",
+                },
+                {
+                    "name": "Physical Therapist",
+                    "description": "A physical therapist specializes in the rehabilitation of musculoskeletal conditions, including arthritis. They can provide exercises, stretches, and other physical interventions to improve joint mobility, strengthen muscles, and manage pain associated with arthritis.",
+                },
+            ],
+            "image": "https://nextcare.com/wp-content/uploads/2022/09/Joint-Img-Web.jpg",
         },
         "Gastroenteritis": {
             "description": "Gastroenteritis is an inflammation of the digestive tract, particularly the stomach, and large and small intestines. Viral and bacterial gastroenteritis are intestinal infections associated with symptoms of diarrhea , abdominal cramps, nausea , and vomiting .",
@@ -546,22 +748,72 @@ def get_disease_info(name):
                 "rest",
                 "ease back into eating",
             ],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "Nausea",
+                "Vomiting",
+                "Diarrhea",
+                "Abdominal cramps",
+                "Stomach pain",
+                "Fever",
+                "Headache",
+                "Loss of appetite",
+                "Dehydration",
+                "Fatigue",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Gastroenterologist",
+                    "description": "A gastroenterologist specializes in diagnosing and treating disorders of the gastrointestinal tract, including gastroenteritis. They can evaluate the severity of symptoms, provide appropriate medications to manage symptoms, address complications such as dehydration, and offer guidance on dietary modifications.",
+                },
+                {
+                    "name": "Primary Care Physician/Family Doctor",
+                    "description": "Your primary care physician or family doctor is often the initial point of contact for evaluating and managing gastroenteritis symptoms. They can assess your condition, provide supportive care, prescribe medications if needed, and recommend dietary changes to help manage symptoms.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "An infectious disease specialist is trained in diagnosing and managing various infectious diseases, including gastroenteritis. They can determine the cause of the infection, provide specific treatment recommendations if necessary, and address any complications or persistent symptoms.",
+                },
+                {
+                    "name": "Pediatrician",
+                    "description": "For children with gastroenteritis, a pediatrician should be consulted. They have expertise in managing gastroenteritis in children, providing appropriate treatment and monitoring for any signs of dehydration or complications.",
+                },
+            ],
+            "image": "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2022/08/29/1567302384.jpeg",
         },
         "Tuberculosis": {
             "description": "Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections show no symptoms, in which case it is known as latent tuberculosis.",
             "precautions": ["cover mouth", "consult doctor", "medication", "rest"],
-            "symptoms": ["", ""],
-            "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+            "symptoms": [
+                "Persistent cough",
+                "Coughing up blood or sputum",
+                "Chest pain",
+                "Fatigue",
+                "Unintentional weight loss",
+                "Loss of appetite",
+                "Fever",
+                "Night sweats",
+                "Chills",
+                "Shortness of breath",
             ],
-            "image": "",
+            "doctors": [
+                {
+                    "name": "Pulmonologist",
+                    "description": "A pulmonologist specializes in diagnosing and treating diseases of the respiratory system, including tuberculosis. They can evaluate symptoms, order diagnostic tests (such as a chest X-ray or sputum analysis), prescribe appropriate anti-tuberculosis medications, and provide long-term management of the disease.",
+                },
+                {
+                    "name": "Infectious Disease Specialist",
+                    "description": "An infectious disease specialist is trained in the diagnosis and treatment of various infectious diseases, including tuberculosis. They can confirm the diagnosis, prescribe appropriate anti-tuberculosis medications, monitor treatment response, and manage any complications or drug-resistant cases.",
+                },
+                {
+                    "name": "Primary Care Physician/Family Doctor",
+                    "description": "Your primary care physician or family doctor is often the first healthcare professional you would consult for symptoms of tuberculosis. They can perform initial assessments, order diagnostic tests, refer you to a specialist, prescribe medications, and provide follow-up care throughout the treatment process.",
+                },
+                {
+                    "name": "Public Health Specialist",
+                    "description": "Public health specialists may be involved in the management and prevention of tuberculosis, especially in settings where there is a higher risk of transmission. They work on surveillance, contact tracing, and implementation of public health measures to control the spread of the disease.",
+                },
+            ],
+            "image": "https://i0.wp.com/dutable.com/wp-content/uploads/2021/04/000-4.jpg?fit=1200%2C630&ssl=1",
         },
         # END OF BAGIAN HAFI
     }
