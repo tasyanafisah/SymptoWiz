@@ -23,6 +23,9 @@ def predict():
             "name": output,
             "description": info["description"],
             "precautions": info["precautions"],
+            "image": info["image"],
+            "doctors": info["doctors"],
+            "symptoms": info["symptoms"],
         }
     )
 
