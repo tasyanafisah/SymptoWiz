@@ -45,7 +45,7 @@ export default function Article() {
             content: "Loading..",
         });
         axios
-            .post("http://localhost:5000/api/disease", {
+            .post("http://hafizhaua.pythonanywhere.com/api/disease", {
                 disease: diseaseName,
             })
             .then((res) => {
