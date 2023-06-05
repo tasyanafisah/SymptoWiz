@@ -25,7 +25,7 @@ def get_disease_info(name):
                     "description": "Allergists are qualified to diagnose and treat conditions like hay fever, food allergies and intolerances, eczema, psoriasis, asthma, and certain types of sinus and ear infections, among others.",
                 },
             ],
-            "image": "https://www.nejm.org/na101/home/literatum/publisher/mms/journals/content/nejm/2022/nejm_2022.387.issue-2/nejmicm2116076/20220711/images/img_large/nejmicm2116076_f1.jpeg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pharmaguideline.com%2F2007%2F07%2Fadverse-drug-reactions.html&psig=AOvVaw1TQaPaCZl0LAUk7gZjY724&ust=1685975348469000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLjSjefpqf8CFQAAAAAdAAAAABAD",
         },
         "Malaria": {
             "description": "An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type.",
@@ -55,7 +55,7 @@ def get_disease_info(name):
                     "description": "Infectious disease doctors are trained in clinical and laboratory skills to make the right diagnoses and organize the best treatment plans.",
                 },
             ],
-            "image": "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/know_-malaria_GettyImages959911388_Thumb-2.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alodokter.com%2Fmalaria&psig=AOvVaw2LkCcpKmFwLdTJuYO_3ZM4&ust=1685975410554000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIDM44Dqqf8CFQAAAAAdAAAAABAD",
         },
         "Allergy": {
             "description": "An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens.",
@@ -80,7 +80,7 @@ def get_disease_info(name):
                     "description": "The ENT surgeon is therefore a doctor who specializes in evaluating and treating patients with ear, nose (including sinuses) and throat (including voice and speech) disorders. In addition, they also manage patients with head and neck cancers as well as surgical treatment of obstructive sleep apnea.",
                 },
             ],
-            "image": "https://d3b6u46udi9ohd.cloudfront.net/wp-content/uploads/2022/08/24072619/Food-causing-allergy.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fbaby%2Fbaby-allergic-reaction-to-food&psig=AOvVaw27Se4kIQ1f4Yz3jmfwu-Ip&ust=1685975524568000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNC9zrTqqf8CFQAAAAAdAAAAABAI",
         },
         "Hypothyroidism": {
             "description": "Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone.",
@@ -104,7 +104,7 @@ def get_disease_info(name):
                     "description": "An endocrinologist is particularly knowledgeable about the function of the thyroid gland and the body's other hormone-secreting glands.",
                 },
             ],
-            "image": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Endocrine-Diseases/ThyroidAnatomy_758x864.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Finfinitycarehospital.com%2Fthese-changes-in-face-and-hair-can-be-symptoms-of-hypothyroidism-do-not-ignore%2F&psig=AOvVaw3Ng3GpZIOjEydB1W3hMxvp&ust=1685975819904000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKC5-MHrqf8CFQAAAAAdAAAAABAD",
         },
         "Psoriasis": {
             "description": "Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family.",
@@ -130,7 +130,7 @@ def get_disease_info(name):
                     "description": "This is a doctor who specializes in treating arthritis and other problems with the joints, muscles, and bones. They can treat any joint pain caused by psoriasis.",
                 },
             ],
-            "image": "https://post.healthline.com/wp-content/uploads/2022/04/Scalp-psoriasis-1296x728-slide5.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmy.clevelandclinic.org%2Fhealth%2Fdiseases%2F6866-psoriasis&psig=AOvVaw2zXqvpgoZT7ZW0a40epaX6&ust=1685976384776000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNCu587tqf8CFQAAAAAdAAAAABAD",
         },
         "GERD": {
             "description": "Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD.",
@@ -157,7 +157,7 @@ def get_disease_info(name):
                     "description": "They are also known as an ENT, or ear, nose, and throat specialist. If you have stomach acid that spills into your throat or voice box, you may have laryngopharyngeal reflux (LPR) instead of, or in addition to, GERD. Otolaryngologists have experience diagnosing and treating both conditions.",
                 },
             ],
-            "image": "https://assets.medpagetoday.net/media/images/90xxx/90511.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fherminahospitals.com%2Fid%2Farticles%2Fmengenal-apa-itu-gerd-gejala-dan-mengatasi-gerd.html&psig=AOvVaw3k6XDe4mch-Q1luEO341UA&ust=1685976411057000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLiKnN7tqf8CFQAAAAAdAAAAABAD",
         },
         "Chronic cholestasis": {
             "description": "Chronic cholestatic diseases, whether occurring in infancy, childhood or adulthood, are characterized by defective bile acid transport from the liver to the intestine, which is caused by primary damage to the biliary epithelium in most cases",
@@ -186,7 +186,7 @@ def get_disease_info(name):
                     "description": "nternal medicine or general internal medicine (in Commonwealth nations) is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases. Doctors specializing in internal medicine are called internists, or physicians (without a modifier) in Commonwealth nations.",
                 },
             ],
-            "image": "https://medlineplus.gov/images/PX0001UT_PRESENTATION.jpeg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedlineplus.gov%2Fgenetics%2Fcondition%2Fbenign-recurrent-intrahepatic-cholestasis%2F&psig=AOvVaw1GRfAOkOgUW0MimVoFNdNr&ust=1685977582078000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDkuo3yqf8CFQAAAAAdAAAAABAD",
         },
         "hepatitis A": {
             "description": "Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. The virus is one of several types of hepatitis viruses that cause inflammation and affect your liver's ability to function.",
@@ -210,7 +210,7 @@ def get_disease_info(name):
                     "description": "Hepatologist: A gastroenterologist with extensive training in liver disease is a hepatologist. These physicians are subspecialists with many years of training and are experts in all the diseases that affect the liver, especially hepatitis.",
                 },
             ],
-            "image": "https://cdn.aarp.net/content/dam/aarp/health/drugs_supplements/2020/10/1140-hepatitis-a.jpg",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prosehat.com%2Fartikel%2Fartikelkesehatan%2Fpenyebab-hepatitis-a-kambuh&psig=AOvVaw3GWETG28W0tkleq1okda30&ust=1685977630276000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNjbv6Lyqf8CFQAAAAAdAAAAABAD",
         },
         "Osteoarthristis": {
             "description": "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time.",
@@ -235,7 +235,7 @@ def get_disease_info(name):
                     "description": "heumatologists are specialists in arthritis and diseases that involve bones, muscles and joints. They are trained to make difficult diagnoses and to treat all types of arthritis, especially those requiring complex treatment. You may be referred to an orthopedist if you have a type of degenerative arthritis.",
                 },
             ],
-            "image": "https://hulc.ca/wp-content/uploads/2019/01/osteo-hands.jpg?w=624",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhulc.ca%2F2019%2F01%2F31%2Fa-patients-guide-to-osteoarthritis-of-the-hand%2F&psig=AOvVaw3Dx4T7ZAw4TMAn1LtnZn5I&ust=1685977947814000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjw4rnzqf8CFQAAAAAdAAAAABAM",
         },
         # END OF BAGIAN REI
         # START OF BAGIAN TASYA
@@ -551,12 +551,13 @@ def get_disease_info(name):
                 "drink cranberry juice",
                 "take probiotics",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Frequent urination", "Urgency", "Pain or burning sensation", "Blood in the urine", "Cloudy or strong-smelling urine", "Fatigue"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Urologist", "description": "A urologist specializes in the urinary tract and can diagnose and treat complex or recurrent UTIs."},
+                {"name": "Gynecologist", "description": "Women who frequently experience UTIs may consult with a gynecologist for evaluation and treatment."},
+                {"name": "Primary care physician (PCP)", "description": "Your regular doctor can diagnose and treat most uncomplicated UTIs. They may prescribe antibiotics to clear the infection."},
             ],
-            "image": "",
+            "image": "https://northeasternurology.com.au/wp-content/uploads/2018/12/urinary-tract-infections-1.jpg",
         },
         "Varicose veins": {
             "description": "A vein that has enlarged and twisted, often appearing as a bulging, blue blood vessel that is clearly visible through the skin. Varicose veins are most common in older adults, particularly women, and occur especially on the legs.",
@@ -566,12 +567,13 @@ def get_disease_info(name):
                 "use vein compression",
                 "dont stand still for long",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Visible veins", "Blue or purple veins", "Vein pain or aching", "Swelling", "Muscle cramps", "Itching", "Skin irritation", "Heaviness or fatigue in the legs"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Vascular surgeon", "description": " Vascular surgeons specialize in diagnosing and treating conditions affecting the blood vessels, including varicose veins."},
+                {"name": "Phlebologist", "description": "Phlebologists are physicians who specialize in the diagnosis and treatment of vein disorders, including varicose veins."},
+                {"name": "Dermatologist", "description": " Dermatologists may also be involved in the diagnosis and treatment of varicose veins, particularly if there are skin complications or concerns."},
             ],
-            "image": "",
+            "image": "https://veincenterofflorida.com/wp-content/uploads/2022/01/varicose-veins-vs-spider-veins-1024x683.jpg",
         },
         "AIDS": {
             "description": "Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.",
@@ -581,22 +583,23 @@ def get_disease_info(name):
                 "consult doctor",
                 "follow up",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Fatigue", "Rapid weight loss", "Recurring fever", "Night sweat", "Thrush", "Swollen lymph nodes", "Persistent diarrhea", "Skin rash"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Infectious disease specialist", "description": "These doctors specialize in the diagnosis and treatment of infectious diseases, including HIV/AIDS."},
+                {"name": "HIV/AIDS specialist", "description": "Some healthcare providers specialize specifically in HIV/AIDS care and have extensive experience in managing the condition."},
             ],
-            "image": "",
+            "image": "https://redlineindonesia.org/wp-content/uploads/2021/01/what-is-HIV.png",
         },
         "Paralysis (brain hemorrhage)": {
             "description": "Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body.",
             "precautions": ["massage", "eat healthy", "exercise", "consult doctor"],
-            "symptoms": ["", ""],
+            "symptoms": ["Loss of muscle strength", "Numbness", "Difficulty with coordination adn balance", "Impaired speech", "Vision problems", "Seizures"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Neurologist", "description": " Neurologists specialize in conditions affecting the nervous system, including brain hemorrhages and their neurological consequences."},
+                {"name": "Neurosurgeon", "description": "Neurosurgeons are trained in surgical interventions for brain hemorrhages when necessary."},
+                {"name": "Physiatrist", "description": "These specialists focus on restoring function and mobility in individuals with paralysis through physical therapy, occupational therapy, and other rehabilitation methods."},
             ],
-            "image": "",
+            "image": "https://www.clevelandclinic.org/healthinfo/ShowImage.ashx?PIC=4514&width=420",
         },
         "Typhoid": {
             "description": "An acute illness characterized by fever caused by infection with the bacterium Salmonella typhi. Typhoid fever has an insidious onset, with fever, headache, constipation, malaise, chills, and muscle pain. Diarrhea is uncommon, and vomiting is not usually severe.",
@@ -606,7 +609,13 @@ def get_disease_info(name):
                 "consult doctor",
                 "medication",
             ],
-            "image": "",
+            "symptoms": ["Prolonged high fever", "Weakness", "Fatigue", "Abdominal pain", "Headache", "Loss of appetite", "Muscle pain", "Diarrhea", "Constipation"],
+            "doctors": [
+                {"name": "Infectious disease specialist", "description": " These doctors specialize in the diagnosis and treatment of infectious diseases and can provide expert care for typhoid fever."},
+                {"name": "Internal medicine physician", "description": "Internal medicine doctors can diagnose and manage various medical conditions, including typhoid fever."},
+                {"name": "Gastroenterologist", "description": "If complications related to the gastrointestinal system arise, a gastroenterologist may be involved in your care."},
+            ],
+            "image": "https://homeodoctor.co.in/wp-content/uploads/2019/04/symptoms_of_typhoid_fever.jpg",
         },
         "Hepatitis B": {
             "description": "Hepatitis B is an infection of your liver. It can cause scarring of the organ, liver failure, and cancer. It can be fatal if it isn't treated. It's spread when people come in contact with the blood, open sores, or body fluids of someone who has the hepatitis B virus.",
@@ -616,12 +625,13 @@ def get_disease_info(name):
                 "eat healthy",
                 "medication",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Fatigue", "Jaundice", "Joint pain", "Muscle pain", "Fever", "Nausea", "Vomiting", "Abdominal pain"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Hepatologist", "description": "Hepatologists are specialists in liver diseases and are the most appropriate healthcare professionals to manage hepatitis B."},
+                {"name": "Gastroenterologist", "description": "Gastroenterologists focus on the digestive system, including liver diseases such as hepatitis B."},
+                {"name": "Infectious disease specialist", "description": "These doctors specialize in the diagnosis and treatment of infectious diseases, including hepatitis B."},
             ],
-            "image": "",
+            "image": "https://i0.wp.com/rsud.tulungagung.go.id/wp-content/uploads/2021/07/news_20210730-1.jpg?fit=1280%2C720&ssl=1",
         },
         "Fungal infection": {
             "description": "In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.",
@@ -631,12 +641,13 @@ def get_disease_info(name):
                 "keep infected area dry",
                 "use clean cloths",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Skin rash", "Itching", "Redness", "Inflammation", "Peeling skin", "Flaking skin", "Groin discomfort", "Genital area discomfort", "White patches in the mouth"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Dermatologist", "description": "Dermatologists specialize in diagnosing and treating conditions affecting the skin, hair, and nails, including fungal infections."},
+                {"name": "Gynecologist", "description": "Women with suspected vaginal yeast infections or other fungal infections in the genital area may consult with a gynecologist."},
+                {"name": "Dentist or oral specialist", "description": "If you have symptoms of oral thrush or other fungal infections in the mouth, a dentist or oral medicine specialist can provide appropriate treatment."},
             ],
-            "image": "",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgWFhYZGRgZHB4eHBwaHB8fHBwdHhohHh4cHB8eJS4lHB4sHxoeJjgmKy80NTU1HiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrISs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ/PzQ0NDQ0PzQ/PzExMf/AABEIAK8BHwMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAACAwQBAAUG/8QANBAAAQMCAwYGAgMAAgIDAAAAAQIRIQAxA0FREmFxgZHwBCKhsdHhwfETMkIUYlKiBXKC/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAeEQEBAQACAwEBAQAAAAAAAAAAARECIRIxQVFhA//aAAwDAQACEQMRAD8A+uSGtNDfO+VcodihSJrg9cMwyC9YtZAauRuLHlTAjmevd6kBLgd6USAWLGsafd6aCAIuPmosSiPz3xoAQMib+1EVg3Nch2vvvoKgwLLR3wpmGkgP6vN8qUknnmDvE0SjALxm1RxywCq3tQbQFbiKA/dKRignLnA/dFMhhOU0RXv9fS9YpWWWjT9R70rabh0qOGqWBP66UCl6F5n6jWovEeJIDs/sK7Bx3bacbtW0LTWdbnHrVKlOfQO9M2nDSG/fCosXFIUwBJbKSBe2WtH/AMi0OGLGGgVavFUHuS3r8UbZXHbVLtkS4s7Z9Kz/AJQE+9Ojxqshs2Hryi9CNd+VvrKlIxnk/VOCw0ffxUMFtOG0lvdqakZd+lKQndlE/mnEOxf54b6WaBYOr7rj5osMvr+N/e+tUtuPC2VLSkWBjQ1JrfVaEOOB7i+vWuUkDOO/Wm4R5e+Wo1qFLKenvQoToSN9UhAa9BsSwg6jrlVg1Psnj8Z0S0ndx+KNUd99aBKb8KSwce99cRkz9+1bs6Rp7U1OGwe/vQiBbt6wK4H0POmpIdrx3GX6oFYbdzSiWu/XvjQKfkO+daS75951iXBPfvUDNkeuVcob/nfQjEN2juawr7yq6QinPP0zn0piLd9WpYa5/GlG8Zxe3Xj91FlzJ+Y7FEjylwZ/VAlhvfpXbVu4NSGpPfKkKcWBYPRExxteZbnSl4oF+Qj1otakTf8AyHimDTJy7twrz/B+J2lMTboOD03xiNok6AwRYNYtbP0pHglAKN54tM34PWPdejjxni9hC4ZnIHIDXvWlqxpE5c6xaxBI2RPP1qQqBVLsdPcvFNrM4rFqBkhyNcvy9Etmkzo0WvuL1Mhf4kscnuKNS3JEkmzAzGWe+lYHGUCGA0vlnp3FMQq4hoM6vYbt1IOJtG4cQQ4BcC7C/KgSrq7MRY9vQ1nSpSQGDw7Km83oCwI0eFajeOlNwUoZW0dzhu7NnlR4eGHeWBy04n7rWDXYiFEbQIks5kfZ+aZtEBlAggNxyyg39aeg7IKQAUGfNAnfvFKx48yyGS0sTaW3uzVWMbof+XOyL55Z5xTsPFdn9RG7ga8lCv5BYpAzAjg/Izxqn/jqSEqKgtKgCDZm/sFNn8a1ns3jHpfyG4njn813BuWjVNh41gQMp3N+qYjFm4bfv++NLF44a4JDX0tlRtv7730CVC4n3bvOuQt++XOlk3b0+YogvrZ6AsZHfCtfX8VBhM9sNKYkQ/L9P71htIHq2/8AFLB07+qdwDUO+dCVMfuiQRn73GlLdn9B6WHWouWqXe1A5ccN35j9ViJPzauL8qzqwraFuHU/oVq1+xfvnSVXcs/du8qIq0Fpz1atazjSsg82rkKn8vXAjiOHxvrEq79Z9KiagtwNq5IvpubKg/keQzcOAn2rkqPZo1YKbXegWSM9e+tHtfn1OtLWmJ31VRxPt9xQeIUAOXpyogW09efGo8XxAfZLMwPQce3odOMRYWGSSxD7Rl2Dc/ejwULQFZAsSIL7+O+jw2SSQHYC9r/BrcIHYISxJl2DNMTVI7a1a1MTmHs03fnNDgIGyC6VRMWOhkEaPTNhywZ7h7W96DBwgJyuzgPkTb0qGmbUAEkiTF2yPHi+dalO0DB4apLQHzogfICAHFy7v/8Am/TSsQwGj9PSaWdArA2pYgf6HCx4hzW4nlTDOBEl29qqCmhwX092u9BieHJhjMFhMxbm9C8mYXhiyVKhKv8ARD8bWDxTcNGy4cguHY3zkW0rE4SglKQW2QxBZ3F2Ztngbs9bhBIPm82VrPv3RpWhbolLdTKBM7zlf64UOJjpSQApx/kyHDSHY1i4kKLPcEOJgtfKolI8wcx/lydkCZcf14NU1xkrVrIKnG4ASlny0O+txMT/AETAZndzzHdqnCGXKpYEOW5i5Iz/ABTVr2AWUPK5CiGJF3ZWcNr1rLWQ7AxEK/sZewfneP1XYhCFf2BzE8tZ+KRheKcELSC8bUC3KeNCdohhYgQAXfJ94163p+Lxerg4hIfLle5bfTULuHfS3rXmeHWQEk7QcW5sDeNwa1XYeIC5zE+l9anPlFmGkZG2vWedPScuH5qZEFtJb88LdaJJdmvMcu+lTnT1L3Wk6DhnQLSG0z7bjS9qB6ju1YtWQAsYq1nBJtvoj/2kb+H1+6BFr3ZvqjBy5HW3fWqECEgOMu50yoVKtnrbrRqLvxse9KFSBuqSJSn1J79axKwzd86AJbP5atW2U550smbRB771oVZa/vOtQYloHzG77oEp2o40GDQYGsUW08gad8WpCwY9OeVdhq9uvTjRqxSpT/fHOsxljdn6v8UHf1U/iVwZ0y4P7U61IPGxmDP874y/VeV4jEWFOGYtrZ7kXAosXGh5kNGTCz8OdTYIATtI37Rc7QBDQSDEtOtDvx44vTtqSpMEG5DJLbOpkiLVmEtMCIs0PxLDTSiPi2kNYByBL31HOKDwikFKk+YqMJMXeRNwac7SoJdpk3LQHseFDskSw5a7hv3U7ARgkEFtoEMLZSlw+yp5mIaloMNo57yqsY0zBX0HMJ3bhv4UYDtYDf8Ao9an/wCQzgpIs06RluNO22kFjfsd3rIMQgPbvjTQlyHdsnAchzO+ptsEkqJc2bXeTuemYeGSILayLPkM6UZsAAi89Jl65aglOz5SDuYwX/tmDlWxckvznKu2TcBhrcWsf1UgeN8SpixgtAdoES1o9amGG8kPkdbC3ee+qNhLMTM2seFCoqACYu8k7vWM6t+0y51CFNtp2tpIFnLSAxsNRS/EIC0MDD+UOxkuSDZ4uRNOxCobO1AdnIETIz30rGxUEpJU4BEpcOOYBcDPjNajUqYJWoBKCWS8NOvP7odsgJ2SDtOAzw2TOwvBqjFQEr202BBJZ2bUx66ipMXDJU8XcEk7TNkwiNM2yqsblej4bw7eYl8mN3brkelUMnZC2Z7cAbTvdm/FQJxbNcAh3I/Rv1pv8rMVKKiCCRo7WY650dMWWq0eIDhi5Z9DW/zBzy58dMqlWl2J/wAtZn1AJ3UnGElQJAZmJizveRNZHjK9YLJ+K51HOokLuDublccfmvQSsW7y9cudU7Y5TDUhuNEVDPR/ipgtyOunzv8AWs2nZj2PxTrGHFxcw2c12H13Xpal2zb14n0o0n7aoV5ql2PQ6VpkH3750GW7q3KuSG3jdcfNaZYTMyOMzFGpYEwWu/RuE0Je4OXKhS7d52FDRh13EHd9UKhmwf31oQph8dz+6EjPNtMhL35UKCViDdPHS49KnxsVrOT0DaXh461mMtsy3FjENx31EvxIAIuSef6YGaHXjHIxFNs7MG7kEsGMDWh8IpaHKVECOAdynaIyeBxpaxtAmQxibjfuytlWqHlLCWAnjfh1p119Kk7J/qycwNraTeU7m7ekssKUpIIBIBIS4HMQ9ClW2AlVxm2eUsPc0zDSlLuWIDi88hH4p9rcW+Jx1KA2iCSA5DBJbUNe26iw1Psh3IDNZpjjlNJ/kAYCGm0KBZiAQMutHhncXckG7tkBszwq+sVahLB2vHCmfxufk8431KpbSdBDuoNZy3plAyFNQxSDuycn6aqsm7IfLLiKNINrDrb3pacQFOSc3SfQjMznTQthbOb9+lGC05SmdgxEGgxFj+0E8OXOuGIPZiZfV91BioS0c7EDgYucm0pEctbJDs57I3z+qBUiZ1HwxpCcDzEkvuP3f9U5RAIZrZRl7iponGcA+UgxpsxaMx80lSySG2Uq4EOXgg2SZz9Kqw1s42m2hYpJm/lI5ObViMI5IDtm3FwzRvq7M5YmR4VRUWAcNtEFs7k7RJOdMwloQFBoVILTfd60SNtJ8o8xs4EtmAqpcbFLPtEl3e2WRPHRqfSnbEkAuvyg3feIysY+qBawosiN6bHNmofFkw5c2bZIUOp9qShgLE5EQJyZqL+Ok/XofymwhyQwv7UvxKloD2Li2yU2zFp/BpOEslTyGImxd86LEV5TtAFIYyCNo2g6jfpVnQ9UODjL2ztQ+TXIi0zXt4a3mG3d768EKKllWrWty0ge9ewhjle9ZjP+ixCgJy0OQuJ+KBCt1r+00oqALA5daNar6HuedLjTQfk310rCX3PrXIs8X9e2oFYmktlplNSeclQtDWu3vahUWGj5ai70BVmIy9PigXzmzMWNLB4VeRNqxOGC7v2GpahdufenzRoLgt38+9JMw1RN2m87jzoErnm19MtbUC1GR38UeEh540EtQDEc+Y+RXl+Kw/M5A4GziK9FRD+7e/GgxUAw78qzY3x5ZUIxVBICg7Wd/bMUSCNmA7h4uOXEUK0BDB+DjM5evpXeDYughJI2iAR5ouAcwAH5daO19a1LAQ5GbPbMtlR4eMpKFISQQqSATEGU6XvyrcNInZI2hYXfUagtxrkYm2WQHLPHT3atSMnoJ2Qq5zL7/e9dhAC1xfzNeIoMNbFoEZnK4ke/tVCFmxg3+2aTnRgvQiDcuSRq8EPvem4WKU6g5N8HKkIMpAEs5ZUGLzoQTdpmnlwfNsyJYhm/GXHI0jTE4jSW2rzn80xK9eohjSARkprO5k8GZ+YyrEjZcTN2zzs96sC4rndwH6dq0rEMIaCw83ZYVKhTvYPdvc/qixCXZcvkGSJuBmOApQsV9lwZ9e70sYrg6pYEQ75s37rUxJ3N9P8ANJWopPlgQddcha9n5zUZ+MOO0BQUXsfX6NMSvafytsh2t3NQo2graBfaf+yXFrFnJJ4XHOi8N4hYJS8uGBB2kmd08C+VTV4qFeIO0C/NQccZ5UkeMUlawtgDJgXgE74GRFJ8TtILhxIKQbl5By6g50nH8QtQ86g+093aOog0a1IP+B1KDts7mSIcDcd1CPFkul3EO1oBysWs0XqFeEf7BwCzaOOAk55UzCZs33y2mVu3zFrWRctYGrkHpObQe3qvwmOtSAgJKgAf6zcN5hmRlXl4aNou5sc3tnV3h/FAFiIH/iA8e/1VL2zynQ/CA8GOfr+K9EYgtlO5yW6V5Xh1ArJIABls+fp0NeihUvPBg+6/6rLny/poW5bLv80YXcO27l0pKW4HvIb864AvGXb1MKEr1Z+9Kwgndp2aUtYf2GVaC4kjvR6g8wEbgdB81oMHQtb3pAxJz4676M4jAmK05m7TXLZzl380JxNA3p+x9UGHiuWfm1qJKxYkNrl11qQSX1fP8miw1ydJHo1CqGnq/EjWgSZm7RytfWhvTknd3HSl4hGXqc/it2gzzFtN0ZfdAtRUDrwvUom8YoM8Xe1uQrzccrGyXDhjGXwDXqeJQ8KeN/Zry8ROwp4LhgdMmih6OFPTilRVldWk5yLbuNLKCFONp9UmdZ1pnhgGgJHBuji71YV+WGzcF+V4PSo24nRiFOydlwnIuOrW/VVYJUp3gE7yHyrkDP8ArvyI3PO6Gpv8jlgwBd2AAcDMW1vSxaNagE2tkJuP86DnmKLA8chgFIU8+ZIEp/7OMpn0pKllwEsdRfSxDk6zS1rS7jbd4Z9Lvn6Uy4FyPEOSxEiwMgAm++KaSM87F/i1qgwXYsrOZY8SHL1RhnZJNzkRm+flvwINWinqgDZPqByvW7YMm+rzq8UOHi+WWIBuS7FremYrsNIBLGb3DDK868JooctcbMHN4fLP/QfhS1rzBALT3dq1WyGdLgmWOyXbIy1EpTw7g5Av1n9PTChUsLhRKSIuCE6MBL70wa1GIEuNl/MC5gNvu3CnpSlO1tBZUzJ2TFpfUMbvxFKCU8sgRYcz6Vdtad4rxaVpAZCWb+oKYv5g52j0qXDIYAPOTN0eKZ/GCGAJ1uRGgyvSQtiRsiQdmQC4sfN+TTumZ8KKiISl8/LJGpbI0zCT/pSTNh+bZdaFGOt1EIQuJdLKEZBJGd+VZieJcJcq2xqXbcndOlDRqUPn6CPzVIASNYnf11cVNhrSGlSVZhhreDI5UK1HVgYIBYkO8i3x60BR4ZJZyGY2tn7Vcle1+K8vCxS+5xm7t+var0Li97c6GOR4lgYjnf7emjjNTJRYvHHvdRIJ7zblpU508HIUYDUpABsaJS975b+tQ14qSJDMX5d2oUkuWuTbvKlC+bEa+m7OuxSbDll16Vpg9C3EH5nhRpWJgPmalRxnvf70w4jT8xUj/wCQySOMer5HOh2iGYtuOumlBtRFm1oUEO1h+PzQoIkmADy7nPWiTihPHv8AFAtYyPbxSQX4TwqagcfGKnltGMVLtqgKDMNL5vwqpeGL55h6UtIDG4HvyNF1048gpQxcK0MQaarHtN+DDeXy6VP4hbB4DcbUoLJlQSOV3doOvrU3O3pJW4eHMsBYdvWqm1xr5SYzqfBww+7IGOUsW4bqcsp2WlwdSx3iINqZP1nexpwlMSMmB2mh4zy3+tcpIdgoEhgGLpMTPGkmACzCDrex4GYesSkE+RKQGyJ1uNokR6UlaluD2DluRztTU4QsX1sGkX96k/lS0qUXuEsCTzPCaahcglQSQCzvprkasGGKwyX83oX+eVahRYCS26fes/kSWLliSG2fZVzXbbAz5csx6yKMGtxi4uQAYVn1zoAtgQytrsPF3rUIUXUHYy4ad0P+KDEV5hMWO0XAyJLB2Z99OGVmJ4o/6fZJzEGLh7ETvmhV4gbQYGSQHDRlJ36daQsuSBcQQD/YDTI5fdArE2dlrEyCFDd5cv3S3kX7Wrvkxg//AF/WtJ8XjEvshwYkhQDywh051OvxiSwQGVm5uXNrkw1+tMWoEAMksTIB2n0JsWorPqh/nWv+6gqAP8kj2ZWczU+Jihtgol9SG4F4p+2Ab7QL2g8DDk8aXjKRZRd2sC4IsPNlwqbld4dadktd7kMGaPV867GxTLgp4uDyNTpkQwDwXILnIi37pOI5WHWogBg9xui1F6h+vS8OuzZa16PhsT7rycEfrXfvr0MEhw5bfn1rLnyeiFg8a5AZrVOgjI24T3807ZDcs6cczUEgHvgPauds7W1pATF9It9Ub7nbKqB4YJa1q5au8x80s4htm0HMbrelLJOccbVpzh6cUg3L5USVjvf7VOqDHzRIxMsid/bVFZtbn3fqhULjvnk1IGJMxze/dx801ZgG44v1tUgqOR7G9jXIVqw4yDl29aVBmM96ZUKiN/emlqjogZiG68KHFU8POtcr/qCGm/c1gRLs440LScbCdMEuObNqL1MME3JUTkxdt02F4qpSZ0iIvw3VqxDBuHfvlQ3x5WI/D4hKfNE2sNOHYqoYpAABIyJvfKL1KpbGQGsYDvr91yFg2Uwa7boBB1t80x0PxkbI0JDsXG+xbV67AWTcp3W93pOAsuEuz2FnqrFU3mhQJ3gj/s+fOrPq34PYImL8OYaRXAksCk3zLX32fjUxxSDDDl6976bjBYI2gZDzIbXdOetWJQjEIBniDxgMM6HH8UogkQ7dB+KlXjI2iySUsIU5nOxFj2aNK5OyLh2BJTwZRLxqaf4v6rwscsQpZUC39WYkbo+aNeIDBkG0AmeYnrUpYmQH0Jngz+j0SVhmILEtkX0Bsr1q7DcApfZUvYc5ggRqRa+VJ8WAlTJW732TtJysbkcQ4qXxQJLgkDV3ERO/fWIGT8ykPyY676t+Nz9NOGysj/7PzTBqtByJeJDn8vnl6UtCGG0Q4zfXhlnesUoANlfNxxFhQzbpm0WPmEnfy96nxXzAJybZnMvyGmlGV7UEPNxpvi3Gp1pce2r76tM6KK5byh//ACAEblGmJwyTLO1xwy5Un+YgwTbIt7/VWYSVNM595ms+27VOGkRPWaehW4k1Mg2vG6DwqjDKja3EUuXKqsInlTgQziT3yFSQOmc/imAlhQ51QjEO/nR7c3apAue/3RFesUxY8N3/ACDlzzo1qDbxfv5pKVO8X7ea1EX9L9a256NRP1nWfyP3upa9GjLp1FcC1+p79KCp2lDJ+D231ycTc8vu9YpLjnlNEhUXeebZ86kalY1Y9R1o/wCSMuP2KShaWe3diDQBQae+lCU4a9C35/FOUtRHLge91TJRvaMp6h6xKg89/dKMGrgje/Y1rFnfbvl0rDGb/f5paxLRHtQpU+Iti9mPTlMcqkwAVkM7uwBuXjy8eVW4iYItoDk+lSfxjaYQJfnGjelDpx5LEI2FFJUlRZWyN+cEOCd9Kx0K2SWUBofxw/NLV4fWemQ1eaz+M6dHB92Na0yhw8Ug+Zo1/L39a0Yy1H/RYNEjZ0YQ1cgF59b/AFRqwtPrjrRrXlGYKSBr15zanhbA7I3S00KA4FDIdiR07Pc1SjRnFSIOyJzdhoXDvrT0LBDQSwLpZt4Ob8vap1ykhhyg67/apR4Zi6XLZWP3VrUsekBtAuEqzliwu0BwfSjwUA3bVgB9NUKNrPvrVqVEB2YbvkU6KeAJDAZgqgHkM/SkrxSDtF85uDvBtU6Fgl8hw6MafjJSn+qgpKpBGc5hVjc1bsHp2GYy5i0UtYHXKC1GpHHrQYeE3d+dZtWtUgbo7kUzDQAJcdGo0gs7t0o08ONAvJicMGD38U9CQGAO10qdYbuPqmJU9y1ItUvw9DRLNSfynLq1aMbf90A7aIDfvuaErG+lpVofmg23ie+NReOhRaC4o9p5va+dShZhr01CnZoP4rccdPKwTFstf3RE9aQ7b33evGtSc+37elGqWTJ7/PYo0r3fB3iz93qVDT3bXI1oJ5P36UHVKVlmLcxWKfKW4e/SKQnFBhp1piEk27zpWmbbC7Ro7cyXFGlSSG2j0I750orhzcewrMNegbvLvOgn7UCG9OfChWs6uCMn73UJBInLOK5IFwWOoj9cqk1DK1O9t2grFDINvy6zei2Qzv3v50lSjDm+s/eVSlaN+VmejUc6zaon50LWJRmz53FYj042+aJprP4xbPv6qa0T6et/miTe0jhS0xbpT8MPm3CoaViYUuIffQHD1/D/AJ9aZiKnXr0NA577irDK7DHM6T+IpiSc49e+dCngHe+cUe0R8UHQqRlFanC1HU/kG1YR171ojeKF5GpL/sVqnb7B9qjUXN7UwL51I5C/ru1GCM34GlhZ79q4LM/v3pWijf7+lq4HI9C9AcdyQw6VgWaFpyDE78u/euUrSOXcUpXiNns1v8vSkaYJD/XpQJnLv2rtoG1CJ1GetWLX/9k=",
         },
         "Hepatitis C": {
             "description": "Inflammation of the liver due to the hepatitis C virus (HCV), which is usually spread via blood transfusion (rare), hemodialysis, and needle sticks. The damage hepatitis C does to the liver can lead to cirrhosis and its complications as well as cancer.",
@@ -646,12 +657,12 @@ def get_disease_info(name):
                 "eat healthy",
                 "medication",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Fatigue", "Jaundice", "Abdominal pain", "Loss of appetite", "Nausea", "Vomiting", "Muscle pain", "Joint pain", "Itching", "Easy bruising", "Easy bleeding"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Hepatologist", "description": "Hepatologists specialize in liver diseases and are the most appropriate healthcare professionals to manage hepatitis C."},
+                {"name": "Gastroenterologist", "description": "Gastroenterologists focus on the digestive system, including liver diseases such as hepatitis C."},
             ],
-            "image": "",
+            "image": "https://rsudkotabogor.org/wp-content/uploads/2022/07/hepatitis-c.jpg",
         },
         "Migraine": {
             "description": "A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities.",
@@ -661,12 +672,12 @@ def get_disease_info(name):
                 "use poloroid glasses in sun",
                 "consult doctor",
             ],
-            "symptoms": ["", ""],
+            "symptoms": ["Headache", "Sensitivity to light", "Sensitivity to sound", "Nausea", "Vomiting", "Dizziness", "Sensory changes", "Vosual disturbances"],
             "doctors": [
-                {"name": "namanya", "description": "description"},
-                {"name": "namanya", "description": "description"},
+                {"name": "Neurologist", "description": "Neurologists specialize in disorders of the nervous system, including migraines. They can provide comprehensive evaluation, diagnosis, and treatment options for migraines."},
+                {"name": "Headache specialist", "description": "Some doctors specialize specifically in the diagnosis and treatment of headaches, including migraines."},
             ],
-            "image": "",
+            "image": "https://www.drswetech.com/wp-content/uploads/2020/08/chronicmigraineheadaches.jpg",
         },
         # END OF BAGIAN RICHARD
         # START OF BAGIAN HAFI
