@@ -23,7 +23,7 @@ export default function Home() {
                 content: "Loading..",
             });
             axios
-                .post("http://hafizhaua.pythonanywhere.com/api/prediction", {
+                .post("https://hafizhaua.pythonanywhere.com/api/prediction", {
                     symptoms: selectedOptions.map((l) => l.value),
                 })
                 .then((res) => {
