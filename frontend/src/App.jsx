@@ -1,16 +1,24 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { ConfigProvider, theme, Button, Card } from "antd";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import DoctorPages from "./pages/DoctorPages";
-// import { useNavigate } from "react-router-dom";
+import AOS from "aos";
 import Article from "./pages/Article";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
     const { defaultAlgorithm, darkAlgorithm } = theme;
 
+    useEffect(() => {
+        AOS.init({
+            duration: 750,
+            offset: 20,
+            easing: "ease",
+        });
+    }, []);
     return (
         <ConfigProvider
             theme={{
@@ -31,10 +39,15 @@ function App() {
                         element={<Article />}
                     />
                     <Route
+                        path="/article/:slug"
+                        caseSensitive={false}
+                        element={<AboutPage />}
+                    />
+                    {/* <Route
                         path="/doctor"
                         caseSensitive={false}
                         element={<DoctorPages />}
-                    />
+                    /> */}
                 </Routes>
             </Router>
         </ConfigProvider>

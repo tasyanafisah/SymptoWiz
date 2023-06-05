@@ -20,7 +20,7 @@ const DefaultLayout = ({ children }) => {
                     items={[
                         { label: <Link to="/">Home</Link> },
                         { label: <Link to="/article">Article</Link> },
-                        { label: <Link to="/doctor">Doctor Wiki</Link> },
+                        // { label: <Link to="/doctor">Doctor Wiki</Link> },
                     ]}
                 />
             </Header>
