@@ -45,7 +45,7 @@ export default function Article() {
             content: "Loading..",
         });
         axios
-            .post("http://127.0.0.1:5000/api/disease", {
+            .post("http://localhost:5000/api/disease", {
                 disease: diseaseName,
             })
             .then((res) => {
